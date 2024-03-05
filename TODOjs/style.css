@@ -1,0 +1,13 @@
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid red;
+    width: 70px;
+    height: 35px;
+}
+.container{
+    color: orange;
+    border: 1px solid black;
+    padding: 28px ;
+}

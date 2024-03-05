@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="name" placeholder="Enter name">
+        <input type="email" id="email" placeholder="Enter email">
+        <button id="btn" onclick="fetchData()">Submit</button>
+    </div>
+    <h1>Added Data</h1>
+    <div class="userDetails" id="userDetails">
+        <p hidden>kk</p>
+        <p hidden>kk@gmail.com</p>
+    </div>
+    <h1>Display only the clicked Data</h1>
+    <div id="user-details-Container">
+        <p></p> 
+    </div><button onclick="removeUser()">Delete</button>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="card">
+        <h1>Add new User</h1>
+        <p>This is a simple JS App to register new students. Enter the details and click register now to add the data!</p>
+        <div class="flex">
+            <input type="text" placeholder="Enter Name" id="name">
+            <input type="text" placeholder="Enter EmailID" id="email">
+        </div>
+        <button class="btn" onclick="register()">Register Now</button>
+    </div> -->
+
+    <div class="container">
+        <div class="left-container">
+            <div class="add" id="left-container">
+                <h1>Add new User</h1>
+                <p>This is a simple JS App to register new students. Enter the details and click register now to add the data!</p>
+
+                    <input type="text" placeholder="Enter Name" id="name">
+                    <input type="text" placeholder="Enter EmailID" id="email">
+
+                <button class="btn" onclick="register()">Register Now</button>
+                <div id="alert"></div>
+            </div> 
+
+            <div class="user-details" id="user-details">
+                <button class="goBack" onclick="goBack()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                  </svg></button>
+                  <div id="user-details-container"></div>
+            </div>
+
+        </div>
+        <div class="right-container">
+            <div class="students">
+                <h1>All Students</h1>
+                <div class="students" id="users">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="users.js"></script> -->
+    <script src="app.js"></script>
+</body>
+</html>
